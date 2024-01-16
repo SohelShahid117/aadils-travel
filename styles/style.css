@@ -18,14 +18,15 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Satisfy', cursive; */
 }
 .common-button{
-    width: 120px;
-height: 30px;
+width: 130px;
+height: 40px;
 border-radius: 5px;
 background: #FF5400;
 color: #FFF;
 text-align: center;
 font-size: 16px;
 font-weight: 600;
+margin-left: 0px;
 }
 
 /* start header section */
@@ -37,6 +38,8 @@ font-weight: 600;
     margin: 0 auto;
     display: flex;
     margin-top: 30px;
+    align-items: center;
+    justify-content: center;
 }
 .header-container{
     width: 50%;
@@ -273,4 +276,88 @@ left: 50%;
 transform: translate(-100%, -50%);
 padding: 0px 30px;
 /* color: white; */
+}
+
+.popular-bangladesh{
+    position: relative;
+}
+.bangladesh{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    /* color: #FF5400; */
+    max-width: 200px;
+    text-align: center;
+
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+}
+
+.newsletter{
+    min-height: 200px;
+    max-width: 950px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.newsletter-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    border: 1px solid #FF5400;
+    border-radius: 5px;
+    padding:45px 20px;
+    /* height: 70%; */
+    /* display: block; */
+}
+.newsletter-text p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10)
+}
+.newsletter-text input{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+padding: 10px 10px;
+ border: none;
+}
+.newsletter-text .submit-btn{
+ color: #FFF;
+ background-color: #FF5400;
+ padding: 10px 0;
+ border: none;
+ border-radius: 10px;
+}
+
+.newsletter-img{
+    width: 50%;
+    position: relative;
+}
+.newsletter-img img{
+        width: 100%;
+     height: 30%;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.newsletter-img .save{
+    width: 200px;
+height: 50px;
+transform: rotate(-25deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+color: #FFF;
+padding-top: 10px;
+position: absolute;
+bottom:35px;
+right: 0px;
+
 }
