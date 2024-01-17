@@ -1,0 +1,86 @@
+@media screen and (max-width:600px) {
+    body{
+        width: 100%;
+    }
+    .header-container{
+        width: 100%;
+    }
+    /* .nav-container img {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    } */
+    .item-container{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .banner-text p{
+    margin-bottom: 5px;
+    }
+    .banner-form{
+        flex-direction: column;
+    }
+
+    .banner-form input,select,button{
+        width: 80%;
+        height: 20px;
+        font-size: 16px;
+        margin: 5px 5px;
+        padding: 0px 5px;
+    }
+    .popular{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .destination-img .malin{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start
+    }
+    .destination-img .srinka{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+    .destination-img .srinka .sri{
+        width: 80%;
+    }
+    .destination-img .srinka .north-am{
+        width: 80%;
+    }
+    .destination-img .srinka .kash{
+        width: 80%;
+    }
+    .choose-card .card-1-2{
+        flex-direction: column;
+    }
+    .card-1,.card-2{
+        margin: 10px 30px;
+    }
+    .hero-text1{
+        width: 70%;
+        height: auto;
+    padding: 0px 0px;
+    top: 50%;
+left: 40%;
+    /* color: white; */
+    }
+    .hero-text2{
+        width: 70%;
+        height: auto;
+top: 50%;
+left: 80%;
+padding: 0px 00px;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-img{
+        width: 80%;
+    }
+    .footer-para{
+        margin: 5px auto;
+    }
+}
