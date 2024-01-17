@@ -590,7 +590,7 @@ height: 250px;
 
 .choose{
     min-height: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 950px;
     margin: 0 auto;
 }
